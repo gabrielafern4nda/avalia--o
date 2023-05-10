@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    margin-top: 10%;
+    margin-left: 0%;
+}
+
+.teclado {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(249, 224, 224);
+    color: rgb(148, 8, 8);
+    width: 75%;
+  }
+  
+.linhas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+.teclas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.teclas:hover {
+    background-color: #e6e6e6;
+}
+ 
+.spacebar{
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.spacebar:hover{
+    background-color: #e6e6e6;
+}
+  
+.setas {
+  margin-bottom: 10px;
+  margin-left: 0%;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: rgb(249, 224, 224);
+}
+    
+.D7:hover{
+   background-color: #e6e6e6;
+}
+    
+.D8:hover{
+  background-color: #e6e6e6;
+}
+    
+.D9:hover{
+    background-color: #e6e6e6;
+}
+    
+.D10:hover{
+  background-color: #e6e6e6;
+}
+
+.D7{
+  display: flex;
+  width: 35px;
+  margin-bottom: 10%;
+  margin-left: 45px;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid rgb(85, 77, 77);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+    
+    .D8{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      width: 35px;
+      display: inline-block;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 1px solid rgb(85, 77, 77);
+      background-color:#ffffff;
+      color: rgb(0, 0, 0);
+    }
+
+    .D9{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 1px solid rgb(85, 77, 77);
+      background-color:#ffffff;
+      color: rgb(0, 0, 0);
+    }
+    
+    .D10{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 1px solid rgb(85, 77, 77);
+      background-color: #ffffff;
+      color: black;
+    }
